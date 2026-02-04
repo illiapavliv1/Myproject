@@ -7,16 +7,24 @@ background-color: #f5f7fa;
 }
 h1 {
   font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
 }
 
 h2 {
   color: #0066cc;
   margin-top: 30px;
   font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+   margin-bottom: 15px;
+  letter-spacing: 0.5px;
 }
 p{
   font-size: 17px;
   color: #555;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 10px;
 }
 
 navbar {
@@ -119,16 +127,19 @@ nav {
   top: 0;
   background: white;
   z-index: 10;
+  text-decoration: none;
 }
 
 nav a {
   text-decoration: none;
   color: #0066cc;
   font-weight: 600;
+  transition:  color 0.3s, border-bottom 0.3s;
 }
 
 nav a:hover {
-  color: #ff9900;
+  color: #ff7a00;
+  border-bottom: 2px solid #ff7a00;;
 }
 .chomy{
   ul {
@@ -158,6 +169,8 @@ main{
 
 .btn:hover {
   background: #e68a00;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   text-align: center;
 }
 .container{
   max-width: 1100px;
@@ -166,6 +179,10 @@ main{
 }
  img{
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+img:hover{
+  transform: scale(1.202);
 }
 #splash-screen {
     position: fixed;
@@ -205,8 +222,8 @@ main{
     background-color: #f0f0f0;
 }
 p img{
-  width: 900px;
-  height: 900px;
-  opacity: 3s;
+  width: 1920px;
+height: 1080px;
+  opacity: 0.7;
 }
 
